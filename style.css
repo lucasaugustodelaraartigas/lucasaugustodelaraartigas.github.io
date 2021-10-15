@@ -1,14 +1,10 @@
 body{
-    padding: 20px 0;
+    padding: .75rem 0;
     background: black;
 }
 
-#noturno{
-    padding: 10px 0;
-    width: 3%;
-}
-
 #fotoLucas{
+    padding: 1.1rem 0;
     width: 15%;
     border-radius: 100%;
     margin-bottom: 2%;
@@ -20,7 +16,7 @@ nav{
 }
 
 nav a{
-    margin: 10px;
+    margin: .75rem;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 22px;
@@ -35,7 +31,7 @@ nav a:hover{
 }
 
 .titulo {
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: bold;
     color: white;
     text-align: center
@@ -43,21 +39,21 @@ nav a:hover{
 
 p{
     margin-bottom: 2%;
-    padding: 20px 0;
+    padding: .75rem 0;
     color: honeydew;
     font-size: 16px;
     text-align: center;
 }
 
 .conhecimentos{
-    padding: 20px 0;
+    padding: .75rem 0;
     display: inline-block;
     margin: auto;
 }
 
 .fotos img{
     width: 5%;
-    padding: 10px;
+    padding: .75rem;
     margin-bottom: 2%;
 }
 
@@ -66,7 +62,18 @@ p{
 }
 
 .contato{
-    padding: 20px 0;
+    padding: .75rem 0;
     display: inline-block;
     margin: auto;
+}
+
+@media screen and (max-width: 1111px){
+    #fotoLucas{
+    width: 25%;
+}
+
+.fotos img{
+    width: 10%;
+}
+
 }
