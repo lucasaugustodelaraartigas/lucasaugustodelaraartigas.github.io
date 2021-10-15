@@ -33,12 +33,15 @@ nav a:hover{
 }
 
 .titulo {
-    padding-top: 1.1rem;
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     text-align: center
+}
+
+main h2{
+    margin-top: .75rem;
 }
 
 p{
